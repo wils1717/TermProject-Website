@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<!--Mark Wilson
+10/5/16-->
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/tpstyles.css">
+		<link rel="stylesheet" href="css/tableformcss.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkFONPKJj99pMB5o1kEUb6EWbUoKEEwag&sensor=false"></script>
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="js/contactScript.js"></script>
+		<script src="js/jquery.highlight.js"></script>
+		<link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.css">
+		<script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+		<title>Waffle Mania</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<a href="index.html"><img class="logo" src="images/logo.png" alt="Waffle Mania Logo"></a>
+				<div class="banner">
+					<img src="images/contact.jpg" alt="Contact image">
+				</div>
+			</header>
+			<nav class="fixed-nav-bar">
+				<img src="images/NavLogo.png" alt="Waffle Mania Logo">
+				<ul id = "vecta_menu">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html"> About Us</a>
+					</li>
+					<li>
+						<a href="product.html">Products</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact Us</a>
+					</li>
+					<li>
+						<a href="join.html">Join Email</a>
+					</li>
+				</ul>
+			</nav>
+			<hr/>
+			<main>
+				<h5> Please fill out the following form so we can help you more effectively:</h5>
+				<form  name="contact_validator" id="contact_validator">
+					<fieldset>
+						<label for="first_name">First Name:</label>
+						<input type="text" id="first_name" name="first_name">
+						<br>
+						<label for="last_name">Last Name:</label>
+						<input type="text" id="last_name" name="last_name">
+						<br>
+						<label for="email">Email Address:</label>
+						<input type="text" id="email" name="email" placeholder="abc@abc.com">
+						<br>
+						<label for="phone">Phone Number:</label>
+						<input type="text" id="phone" name="phone" placeholder="999-999-9999">
+						<br>
+						<label for="Questions">Questions:</label>
+						<textarea id="question" name="questions" rows="5" col="25"></textarea>
+						<input type="submit" id="submit" value="Submit" class="btn">
+					</fieldset>
+				</form>
+				</div>
+				<div id="map"></div>
+				<div class="location">
+					<p>
+						<b> We are located at:
+						<br>
+						123456 Waffle Rd.
+						<br>
+						Sarnia, ON W2F 3F3</b>
+					</p>
+
+					<p>
+						<b>Phone Number:</b>
+					</p>
+					<p>
+						<a href="tel:8145559608"><b>(814)555-9608</b></a>
+					</p>
+
+					<p>
+						<b>Email Address:</b>
+					</p>
+					<p>
+						<a href="mailto:info@wafflemania.net"><b>info@wafflemania.net</b></a>
+					</p>
+			</main>
+			<hr/>
+			<footer>
+				&copy; copyright 2016. All Rights Reserved.
+				<br>
+				<a href="mailto:info@wafflemania.net">Request Information</a>
+				<br>
+				Mark Wilson &nbsp; C0533886
+			</footer>
+		</div >
+	</body>
+</html>

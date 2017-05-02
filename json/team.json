@@ -1,0 +1,87 @@
+{"teammembers":[
+	{
+		"name":"Mark Wilson",
+		"title":"President/CEO",
+		"department":"Owner",
+		"bio":"Started Waffle Mania in 1998 and has been off the floor since 2010."
+	},
+	{
+		"name":"Cletus Wilson",
+		"title":"Acting Manager",
+		"department":"Sales",
+		"bio":"Cletus is the Acting manager for Waffle Mania. He has been a part of the team since the beginning, and was promoted from the floor to this position in 2010."
+	},
+	{
+		"name":"Herbert Tompkins",
+		"title":"Sales Associate",
+		"department":"Sales",
+		"bio":"Herbert joined the team in 1999. He loves waffles more than life itself."
+	},
+	{
+		"name":"Mike Hunt",
+		"title":"Sales Associate",
+		"department":"Sales",
+		"bio":"Mike joined the team in 2000. He enjoys making sure every home has a waffle maker."
+	},
+
+		{
+		"name":"Wilbur Smith",
+		"title":"Sales Associate",
+		"department":"Sales",
+		"bio":"Wilbur joined the team in 2000. He wants to make waffles Canadas national dish."
+	},
+		{
+		"name":"Tony Fritz",
+		"title":"Sales Associate",
+		"department":"Sales",
+		"bio":"Tony joined the team in 2000. He likes cats."
+	},
+		{
+		"name":"Theressa Dalton",
+		"title":"Sales Associate",
+		"department":"Sales",
+		"bio":"Theressa joined the team in 2000. She likes dogs."
+	},
+		{
+		"name":"Matt Toms",
+		"title":"Sales Associate",
+		"department":"Sales",
+		"bio":"Matt joined the team in 2001. He likes long walks on the beach."
+	},
+		{
+		"name":"Lisa Smalls",
+		"title":"Sales Associate",
+		"department":"Sales",
+		"bio":"Lisa joined the team in 2001. She collects candles as a hobby."
+	},
+		{
+		"name":"Ben Guay",
+		"title":"Sales Associate",
+		"department":"Sales",
+		"bio":"Ben joined the team in 2002. He loves stand up comedy."
+	},
+		{
+		"name":"Steve Harmond",
+		"title":"Sales Associate",
+		"department":"Sales",
+		"bio":"Steve joined the team in 2004. He loves doing handywork around the house."
+	},
+		{
+		"name":"Margot Downie",
+		"title":"Sales Associate",
+		"department":"Sales",
+		"bio":"Tony joined the team in 2005. He is a skilled tradesman."
+	},
+		{
+		"name":"Tammy West",
+		"title":"Sales Associate",
+		"department":"Sales",
+		"bio":"Tammy joined the team in 2007. She loves growing vegetables in her garden."
+	},
+		{
+		"name":"Nick Rumple",
+		"title":"Sales Associate",
+		"department":"Sales",
+		"bio":"Tony joined the team in 2010. He eats subway everyday."
+	}
+]}

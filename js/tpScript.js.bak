@@ -1,0 +1,18 @@
+/* Mark Wilson 
+11/29/16
+Term Project Functions */
+
+    $(document).ready(function() {
+        $("#vecta_menu").highlightMenu({
+			color:'white',
+			hoverBgColor:'#000',
+			hoverColor:'yellow',
+			linkWidth:'125px'
+		});
+			$("#accordion").accordion(
+				{ 
+					event: "click",
+					collapsible: true 
+				});
+		
+    }); 

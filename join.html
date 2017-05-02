@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<!--Mark Wilson
+10/5/16-->
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/tpstyles.css">
+		<link rel="stylesheet" href="css/tableformcss.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="js/joinScript.js"></script>
+		<script src="js/jquery.highlight.js"></script>
+		<link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.css">
+		<script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+		<title>Waffle Mania</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<a href="index.html"><img class="logo" src="images/logo.png" alt="Waffle Mania Logo"></a>
+				<div class="banner">
+					<img src="images/join.jpg" alt="Join image">
+				</div>
+			</header>
+			<nav class="fixed-nav-bar">
+				<img src="images/NavLogo.png" alt="Waffle Mania Logo">
+				<ul id = "vecta_menu">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html"> About Us</a>
+					</li>
+					<li>
+						<a href="product.html">Products</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact Us</a>
+					</li>
+					<li>
+						<a href="join.html">Join Email</a>
+					</li>
+				</ul>
+			</nav>
+			<hr/>
+			<main>
+
+				<form name="join_validator" id="join_validator">
+					<h5> If you would like to join our email list please fill out the following:</h5>
+					<fieldset>
+						<div class="join">
+							<label for="first_name">First Name:</label>
+							<input type="text" id="first_name" name="first_name">
+							<br>
+							<label for="last_name">Last Name:</label>
+							<input type="text" id="last_name" name="last_name">
+							<br>
+							<label for="email">Email Address:</label>
+							<input type="text" id="email" name="email" placeholder="abc@abc.com">
+							<br>
+							<label for="phone">Phone Number:</label>
+							<input type="text" id="phone" name="phone" placeholder="999-999-9999">
+							<br>
+							<br>
+							I would like more information:
+							<br>
+							<ul>
+								<li>
+									<input type="checkbox" id="newitems" name="newitems" class="chkbox">
+									New Items
+								</li>
+								<li>
+									<input type="checkbox" id="promo" name="promo" class="chkbox">
+									Promotions and Events
+								</li>
+							</ul>
+							<label for="reference">Referral Source:</label>
+							<select name="reference" id="reference">
+								<option value="ad">Advertisement</option>
+								<option value="friend">Friend</option>
+								<option value="google">Google</option>
+								<option value="social">Social Media</option>
+								<option value="other">Other</option>
+							</select>
+							<input type="submit" id="submit" name="submit" value="Submit" class="btn">
+						</div>
+						<div class="email">
+							<img src="images/email.jpg" alt="email">
+						</div>
+					</fieldset>
+				</form>
+			</main>
+			<footer>
+				<hr>
+				&copy; copyright 2016. All Rights Reserved.
+				<p>
+					Mark Wilson &nbsp; C0533886
+				</p>
+				<a href="mailto:info@wafflemania.net">Request Information</a>
+				<br>
+			</footer>
+		</div >
+	</body>
+</html>

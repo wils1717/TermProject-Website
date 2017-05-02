@@ -1,0 +1,525 @@
+/* Style sheet created by: Mark Wilson C0533886 10/5/16 */
+/* colors
+ yellow - #fffe00 */
+
+body {
+	background-color: black;
+}
+#container {
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+header {
+	margin-top: 0;
+	margin-bottom: .1em;
+	padding: 1em;
+	text-align: center;
+	font-size: 1.5em;
+	background-color: black;
+}
+nav {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+nav img {
+	display: none;
+}
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+nav li {
+	background-color: black;
+	border-radius: .7em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+nav li a {
+	color: yellow;
+	text-decoration: none;
+}
+main {
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-size: .9em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	padding: 2em;
+	border-radius: 1em;
+	text-align: center;
+	background-color: grey;
+	box-shadow: .5em .5em .5em #404040;
+}
+#map {
+	display: none;
+}
+iframe {
+	display: none;
+}
+a {
+	color: yellow;
+	text-decoration: none;
+}
+figure img {
+	background-color: black;
+	display: inline;
+	height: 15em;
+	width: 15em;
+	margin: 0;
+	padding: 0.3%;
+	border-radius: 1em;
+}
+figure a {
+	background-color: transparent;
+	padding: 0;
+	text-decoration: none;
+}
+.button_panel {
+	height: 125px;
+	padding: 50px 50px;
+	float: left;
+}
+.button_panel img {
+	width: 25px;
+	height: 25px;
+}
+#display_panel {
+	height: 125px;
+	width: 335px;
+	overflow: hidden;
+	float: left;
+}
+#image_list {
+	left: 0px;
+	position: relative;
+	width: 900px;
+	list-style: none;
+}
+#image_list li {
+	float: left;
+	width: 100px;
+}
+#image_list li img {
+	margin-left: none;
+	padding-left: none;
+	width: 95px;
+}
+#image_swap {
+	margin-bottom: 0;
+	margin-left: 0;
+	border-radius: 4em;
+}
+#carousel {
+	margin-left: 31.6%;
+}
+footer {
+	font-size: .75em;
+	text-align: center;
+	margin-top: 5em;
+	clear: both;
+	color: white;
+	font-weight: bold;
+}
+hr {
+	display: none;
+}
+h1 {
+	font-size: 2.2em;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.3em;
+	text-align: center;
+}
+h5 {
+	font-size: 1.3em;
+	color: yellow;
+}
+h6 {
+	font-size: 1em;
+}
+p h2 {
+	font-size: 1.3em;
+	color: yellow;
+	padding: 0;
+	margin: 0;
+}
+.location {
+	margin-top: 3em;
+	text-align: center;
+}
+.email {
+	display: none;
+}
+.banner {
+	display: none;
+}
+.products {
+	display: inline;
+}
+.welcome {
+	display: inline;
+}
+.mobile {
+	display: inline;
+}
+.desktop {
+	display: none;
+}
+.tablet {
+	display: none;
+}
+
+/* Media query for tablet viewport targets screen size with a minimum width of 500px */
+@media only screen and (min-width: 500px) {
+	header h2 {
+		display: inline;
+	}
+	.mobile {
+		display: none;
+	}
+	.tablet {
+		display: block;
+		margin-top: 4em;
+	}
+	.desktop {
+		display: none;
+	}
+	main {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding: 0;
+		border-radius: 0;
+		box-shadow: 0 0 0 0;
+		color: white;
+		background-color: transparent;
+		text-align: center;
+	}
+	section {
+		margin-top: 1em;
+		padding: 0;
+		display: inline-block;
+		padding-bottom: 3em;
+		background-color: transparent;
+		width: 100%;
+		color: white;
+		float: left;
+	}
+	iframe {
+		display: inline;
+		width: 400px;
+		height: 300px;
+		margin-top: 2em;
+		border: 0.3em solid white;
+		border-radius: 1em;
+		margin-bottom: 3em;
+	}
+	aside {
+		color: white;
+	}
+	article {
+		color: white;
+	}
+	article li {
+		font-size: 1.2em;
+		margin-left: -2em;
+		list-style-type: none;
+		text-decoration: none;
+	}
+	section h1 {
+		text-align: left;
+	}
+	main h1 {
+		margin-top: 2em;
+		font-size: 3em;
+	}
+	figcaption {
+		font-size: 1.2em;
+	}
+	main article ul {
+		text-align: left;
+		text-decoration: none;
+	}
+	hr {
+		display: block;
+		width: 80%;
+	}
+	.location {
+		padding-top: 3em;
+	}
+	#map {
+		float: left;
+		width: 300px;
+		height: 300px;
+		display: inline;
+		padding-bottom: 3em;
+		margin-bottom: 4em;
+	}
+}
+
+/* Media query for desktop viewport targets screen size with a minimum width of 950px */
+@media only screen and (min-width: 1050px) {
+	#container {
+		width: 100%;
+		margin: 0 auto 0 auto;
+	}
+	body {
+		background: none;
+		background-color: black;
+		margin: 0;
+		padding-bottom: 0;
+		overflow: auto;
+	}
+	header {
+		margin-top: 3.3em;
+		width: 100%;
+		background-color: black;
+		margin-bottom: 0;
+		left: 0;
+		right: 0;
+		padding-top: 1.5em;
+		padding-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+		background-color: black;
+		border-radius: 0;
+		box-shadow: 0 0 0;
+	}
+	.banner {
+		display: block;
+		text-align: center;
+		padding: 0;
+		margin-top: 2em;
+		margin-bottom: 0;
+	}
+	.banner img {
+		width: 100%;
+		height: 425px;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 3em;
+	}
+	header img {
+		margin-top: 0.5em;
+		margin-left: 0;
+		padding-left: 0;
+	}
+
+	.fixed-nav-bar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 9999;
+		width: 100%;
+		height: 20px;
+		background-color: black;
+	}
+	nav {
+		margin-top: 0;
+		margin-bottom: 2em;
+		padding-bottom: 3em;
+	}
+	nav img {
+		display: inline;
+		float: left;
+		padding-top: 0.2em;
+		margin-left: 0.75em;
+		margin-right: 0.75em;
+		height: 325%;
+	}
+	nav ul {
+		margin: 0.3em;
+		padding: 0.4em;
+		text-align: center;
+	}
+	nav li {
+		border-radius: 0;
+		background-color: transparent;
+		list-style-type: none;
+		font-weight: bold;
+		padding-top: 0.5em;
+		display: inline-block;
+	}
+	nav li a {
+		color: white;
+		font-size: 1em;
+		margin-right: 1.5em;
+		text-decoration: none;
+	}
+	nav li a:link, a:visited {
+		color: white;
+	}
+
+	nav li a:hover, a:active {
+		color: #6c6968
+	}
+	main {
+		padding: 0;
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 4em;
+		border: 0;
+		box-shadow: 0 0 0;
+	}
+	article {
+		display: inline;
+		background-color: transparent;
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		color: white;
+		text-align: left;
+	}
+	article h3 {
+		text-align: center;
+		font-size: 1.3em;
+		color: white;
+	}
+	article h5 {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	article li {
+		margin-top: 0;
+		padding-top: 0;
+		text-align: center;
+		font-size: 1.4em;
+		margin-left: 0;
+	}
+	article figure {
+		width: 50%;
+		padding: 0;
+		padding-top: 0;
+		padding-left: 0;
+		margin: 0;
+	}
+	.right {
+		float: right;
+		width: 50%;
+	}
+	article img {
+		padding: 0;
+		text-align: right;
+		width: 100%;
+		height: 100%;
+		float: right;
+	}
+	article h1 {
+		margin-top: 1em;
+		text-align: center;
+		color: yellow;
+	}
+	section {
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		padding-bottom: 2em;
+		background-color: transparent;
+		color: white;
+		float: left;
+	}
+	aside {
+		display: inline;
+		background-color: black;
+		border-radius: 0;
+		padding: 0;
+		margin: 0;
+		text-align: right;
+		color: white;
+		width: 100%;
+	}
+	aside figure {
+		width: 50%;
+		padding: 0;
+		padding-top: 0;
+		padding-left: 0;
+		margin: 0;
+	}
+	aside h4 {
+		padding-top: 14em;
+		font-size: 2.4em;
+		color: yellow;
+		text-align: center;
+	}
+	aside h2 {
+		margin-top: -2em;
+	}
+	aside img {
+		background-color: transparent;
+		float: left;
+		height: 100%;
+		width: 100%;
+		box-shadow: 0 0 0 0;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-top: 0;
+		padding: 0;
+		padding-left: 0;
+		margin-left: 0;
+		border-radius: 0;
+	}
+	figure {
+		margin-top: 2em;
+	}
+	iframe {
+		width: 600px;
+		height: 415px;
+	}
+	h5 {
+		font-size: 2.4em;
+		color: yellow;
+		text-align: center;
+	}
+	h6 {
+		font-size: 1.5em;
+		color: white;
+		font-weight: bold;
+		text-align: left;
+		margin-right: 2em;
+		margin-left: 4em;
+	}
+	a {
+		color: yellow;
+	}
+	footer {
+		color: white;
+	}
+	.products {
+		display: none;
+	}
+	.location {
+		margin-top: -0.4em;
+		color: white;
+	}
+	.welcome {
+		display: none;
+	}
+	.email {
+		display: inline;
+		margin-top: -20em;
+		margin-left: 40em;
+		text-align: right;
+		float: right;
+	}
+	.mobile {
+		display: none;
+	}
+	.tablet {
+		display: inline;
+	}
+	.desktop {
+		display: inline;
+	}
+}

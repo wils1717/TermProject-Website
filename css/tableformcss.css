@@ -1,0 +1,138 @@
+/* Style sheet created by: Mark Wilson C0533886 10/5/16 */
+/* colors
+ yellow - #ecbc2c */
+
+input, select, textarea {
+	display: block;
+}
+fieldset {
+	border: 0.1em solid yellow;
+	text-align: left;
+}
+label {
+	display: block;
+}
+span {
+	color: red;
+	font-size: 87.5%;
+}
+form ul {
+	text-align: left;
+	list-style-type: none;
+}
+.chkbox {
+	display: inline-block;
+}
+.btn {
+	margin-top: 1em;
+}
+/* Media query for tablet viewport targets screen size with a minimum width of 660px */
+@media only screen and (min-width: 500px) {
+
+	fieldset {
+		float: left;
+		text-align: left;
+		background-color: transparent;
+		border: none;
+		font-weight: bold;
+		width: 97%;
+		padding-left: 7em;
+		padding-top: 2em;
+	}
+	fieldset p {
+		text-align: left;
+	}
+	form p {
+		text-align: left;
+	}
+	label {
+		float: left;
+		padding-right: 0.5em;
+		text-align: left;
+		width: 10em;
+	}
+	.btn {
+		margin-left: 12em;
+		margin-bottom: 1em;
+	}
+	table {
+		border: 0.2em solid black;
+		border-collapse: collapse;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+	th, td {
+		border: 0.2em solid black;
+		padding: 1em;
+		font-weight: bold;
+		background-color: grey;
+	}
+	th {
+		background-color: yellow;
+		color: black;
+	}
+	caption {
+		margin-top: 2em;
+		font-size: 2.5em;
+		font-weight: bold;
+		padding-bottom: 0.5em;
+	}
+}
+/* Media query for tablet viewport targets screen size with a minimum width of 950px */
+@media only screen and (min-width: 1050px) {
+
+	fieldset {
+		float: left;
+		text-align: left;
+		background-color: white;
+		color: white;
+		font-weight: bold;
+		width: 30%;
+		border: none;
+		margin-top: 3em;
+		margin-left: 15em;
+		background-color: transparent;
+	}
+	fieldset p {
+		text-align: left;
+	}
+	form p {
+		text-align: center;
+		color: white;
+	}
+	textarea {
+		width: 70%;
+		padding-right: 1em;
+		padding-left: 1em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		background-color: white;
+	}
+	input {
+		font-size: 1.2em;
+		color: grey;
+		background-color: white;
+	}
+	select {
+		background-color: white;
+	}
+	.btn {
+		background-color: black;
+		color: white;
+	}
+	label {
+		float: left;
+		padding-right: 0.5em;
+		text-align: left;
+		width: 10em;
+	}
+	form {
+		background-color: transparent;
+		padding: 1em;
+	}
+	td:hover {
+		color: black;
+		background-color: yellow;
+	}
+}
